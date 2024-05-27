@@ -67,7 +67,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 65px;
+  height: 70px;
   z-index: 1000;
   background-color: rgb(255, 255, 255);
   font-family: 'Source Han Serif', sans-serif;
@@ -86,7 +86,7 @@ body {
   background-color: rgba(121,54,150);
   /* 进度条颜色，可以根据需要修改 */
   position: fixed;
-  top: 61px;
+  top: 66px;
   /* Navbar的高度 */
   left: 0;
   width: 0;
