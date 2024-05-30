@@ -132,7 +132,7 @@ body {
 
 #section2 {
   background-image: url("https://hsiaofu.github.io/project_photos_videos/data-2.png");
-  min-height: 2400px;
+  min-height: 2000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -302,7 +302,8 @@ body {
 
 
 #section7 {
-  min-height: 1200px;
+  background-image: url("https://hsiaofu.github.io/project_photos_videos/data-6.png");
+  min-height: 1500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -313,7 +314,8 @@ body {
 }
 
 #section8 {
-  min-height: 1200px;
+  background-image: url("https://hsiaofu.github.io/project_photos_videos/data-7.png");
+  min-height: 1500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -321,35 +323,18 @@ body {
   z-index: 500;
 }
 
-#section8-1 {
-  background-image: url("https://hsiaofu.github.io/project_photos_videos/ending_b_w.png");
-  min-height: 800px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 500;
+#section8 p {
+  background-color: rgb(255, 255, 255);
+  min-height: 20vh;
+  max-width: 800px;
+  margin: 30px auto; /* 設定上下邊界距離為20像素，水平置中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 30px;
 }
 
-#section9 {
-  background-image: url("https://hsiaofu.github.io/project_photos_videos/Sketches.png");
-  min-height: 1600px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 500;
-}
-
-#section9-1 {
-  background-image: url("https://hsiaofu.github.io/project_photos_videos/Sketches.png");
-  min-height: 1400px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  z-index: 500;
-}
 
 footer {
   bottom: 0;
