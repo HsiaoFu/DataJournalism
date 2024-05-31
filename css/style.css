@@ -113,7 +113,7 @@ body {
   margin-bottom: 10px;
   position: -webkit-sticky;
   position: sticky;
-  top: 55px; /* 距離頂部的位置 */
+  top: 65px; /* 距離頂部的位置 */
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
   font-size: 50px;
@@ -324,6 +324,28 @@ body {
 }
 
 #section8 p {
+  background-color: rgb(255, 255, 255);
+  min-height: 20vh;
+  max-width: 800px;
+  margin: 30px auto; /* 設定上下邊界距離為20像素，水平置中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 30px;
+}
+
+#section9 {
+  background-image: url("https://hsiaofu.github.io/project_photos_videos/data-bg3.png");
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 500;
+}
+
+#section9 p {
   background-color: rgb(255, 255, 255);
   min-height: 20vh;
   max-width: 800px;
