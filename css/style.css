@@ -83,7 +83,7 @@ body {
 
 #progress-bar {
   height: 4px;
-  background-color: rgba(121,54,150);
+  background-color: #F75000;
   /* 进度条颜色，可以根据需要修改 */
   position: fixed;
   top: 66px;
