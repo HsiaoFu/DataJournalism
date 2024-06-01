@@ -86,7 +86,7 @@ body {
   background-color: #F75000;
   /* 进度条颜色，可以根据需要修改 */
   position: fixed;
-  top: 66px;
+  top: 67px;
   /* Navbar的高度 */
   left: 0;
   width: 0;
@@ -160,56 +160,6 @@ body {
   opacity: 1; /* 初始透明度為1，即完全黑色 */
   transition: opacity 0.5s ease; /* 設定變化動畫 */
   z-index: 1;
-}
-
-#story-1 {
-  background-image: url("https://hsiaofu.github.io/project_photos_videos/story_1.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
-  max-width: 100%;
-  z-index: 4;
-}
-
-#story-2 {
-  background-image: url("https://hsiaofu.github.io/project_photos_videos/story_2_new.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
-  max-width: 100%;
-  z-index: 2;
-}
-
-#story-3 {
-  background-image: url("https://hsiaofu.github.io/project_photos_videos/story_3_new.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
-  max-width: 100%;
-  z-index: 2;
-}
-
-#story-4 {
-  background-image: url("https://hsiaofu.github.io/project_photos_videos/story_4_new.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
-  width: 100vw;
-  z-index: 2;
-}
-
-#story-5 {
-  background-image: url("https://hsiaofu.github.io/project_photos_videos/story_5_new.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 100vh;
-  width: 100vw;
-  z-index: 2;
 }
 
 #conclusion-1 p {
@@ -303,7 +253,7 @@ body {
 
 #section7 {
   background-image: url("https://hsiaofu.github.io/project_photos_videos/data-bg1.png");
-  min-height: 1500px;
+  min-height: 1800px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -312,6 +262,19 @@ body {
   padding: 20px;
   position: relative;
 }
+
+#section7 p {
+  background-color: rgb(255, 255, 255);
+  min-height: 20vh;
+  max-width: 800px;
+  margin: 30px auto; /* 設定上下邊界距離為20像素，水平置中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  padding: 30px;
+}
+
 
 #section8 {
   background-image: url("https://hsiaofu.github.io/project_photos_videos/data-bg2.png");
