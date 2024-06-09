@@ -132,7 +132,7 @@ body {
 
 #section2 {
   background-image: url("https://hsiaofu.github.io/project_photos_videos/data-2.png");
-  min-height: 2000px;
+  min-height: 3000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -251,9 +251,9 @@ body {
 
 
 
-#section7 {
+#section3 {
   background-image: url("https://hsiaofu.github.io/project_photos_videos/data-bg1.png");
-  min-height: 3000px;
+  min-height: 1000px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -263,7 +263,7 @@ body {
   position: relative;
 }
 
-#section7 p {
+#section3 p {
   background-color: rgb(255, 255, 255);
   min-height: 20vh;
   max-width: 800px;
@@ -278,7 +278,7 @@ body {
 
 #section8 {
   background-image: url("https://hsiaofu.github.io/project_photos_videos/data-bg2.png");
-  min-height: 4000px;
+  min-height: 2500px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
